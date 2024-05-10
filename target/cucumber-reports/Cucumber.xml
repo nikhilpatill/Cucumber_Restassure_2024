@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="19.392">
+    <testcase classname="ADD NEW_DummyuserUser API test scenarios" name="Create NEW_DummyuserUser API test scenario" time="17.967">
+        <system-out><![CDATA[Given Create NEW_DummyuserUser payload......................................passed
+When ADD NEW_DummyuserUser API using post method............................passed
+Then The "post" NEW_DummyuserUser API call got success with status code 200.passed
+Then The "content-type" NEW_DummyuserUser API  varify Responce_Header "application/json; charset=utf-8",.passed
+Then The "server" NEW_DummyuserUser API  varify Responce_Header "railway",..passed
+Then The "id" varify NEW_DummyuserUser responce 101.........................passed
+Then The "firstName" varify NEW_DummyuserUser responce "nikhil".............passed
+Then The "lastName" varify NEW_DummyuserUser responce "patil"...............passed
+Then The "maidenName" varify NEW_DummyuserUser responce "ganesh"............passed
+Then The "age" varify NEW_DummyuserUser responce 23.........................passed
+Then The "gender" varify NEW_DummyuserUser responce "male"..................passed
+Then The "email" varify NEW_DummyuserUser responce "nikhil2020@gmail.com"...passed
+Then The "phone" varify NEW_DummyuserUser responce "7798260576".............passed
+Then The "username" varify NEW_DummyuserUser responce "devloper_user".......passed
+Then The "password" varify NEW_DummyuserUser responce "Welcomew"............passed
+Then The "bloodGroup" varify NEW_DummyuserUser responce "A+"................passed
+Then The "eyeColor" varify NEW_DummyuserUser responce "black"...............passed
+Then The "haircolor" varify NEW_DummyuserUser responce "black"..............passed
+Then The "hairtype" varify NEW_DummyuserUser responce "roundshap"...........passed
+Then The "address" varify NEW_DummyuserUser responce "pune wastan highway"..passed
+Then The "city" varify NEW_DummyuserUser responce "mumbai"..................passed
+Then The "lat" varify NEW_DummyuserUser responcee 1234......................passed
+Then The "lng" varify NEW_DummyuserUser responcee 12345.....................passed
+Then The "macAddress" varify NEW_DummyuserUser responceee 888...............passed
+Then The "university" varify NEW_DummyuserUser responce "pune"..............passed
+Then The "cardExpire" varify NEW_DummyuserUser responce "12/2/2024".........passed
+Then The "cardNumber" varify NEW_DummyuserUser responce "12345".............passed
+Then The "cardType" varify NEW_DummyuserUser responce "debitcard"...........passed
+Then The "currency" varify NEW_DummyuserUser responce "INR".................passed
+]]></system-out>
+    </testcase>
+</testsuite>

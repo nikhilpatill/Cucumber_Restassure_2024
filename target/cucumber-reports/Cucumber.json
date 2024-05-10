@@ -1,0 +1,658 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-05-10T13:24:06.232Z",
+        "before": [
+          {
+            "result": {
+              "duration": 104281200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Go_RestApi_stepDefination.GoRestApi_stepdefination.before1_seanrio()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Create NEW_DummyuserUser API test scenario",
+        "description": "",
+        "id": "add-new-dummyuseruser-api-test-scenarios;create-new-dummyuseruser-api-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26298200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Create NEW_DummyuserUser payload",
+            "match": {
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.create_new_dummyuser_user_payload()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12630301200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "ADD NEW_DummyuserUser API using post method",
+            "match": {
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.add_new_dummyuser_user_api_using_post_method()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8791000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The \"post\" NEW_DummyuserUser API call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"post\"",
+                  "offset": 4
+                },
+                {
+                  "val": "200",
+                  "offset": 67
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_new_dummyuser_user_api_call_got_success_with_status_code(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1001700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The \"content-type\" NEW_DummyuserUser API  varify Responce_Header \"application/json; charset\u003dutf-8\",",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"content-type\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"application/json; charset\u003dutf-8\"",
+                  "offset": 65
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_new_dummyuser_user_api_varify_responce_header(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1094800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The \"server\" NEW_DummyuserUser API  varify Responce_Header \"railway\",",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"server\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"railway\"",
+                  "offset": 59
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_new_dummyuser_user_api_varify_responce_header(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2440259100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The \"id\" varify NEW_DummyuserUser responce 101",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"id\"",
+                  "offset": 4
+                },
+                {
+                  "val": "101",
+                  "offset": 43
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responce(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 120087400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The \"firstName\" varify NEW_DummyuserUser responce \"nikhil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"firstName\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"nikhil\"",
+                  "offset": 50
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 93181600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The \"lastName\" varify NEW_DummyuserUser responce \"patil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lastName\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"patil\"",
+                  "offset": 49
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 96687200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The \"maidenName\" varify NEW_DummyuserUser responce \"ganesh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"maidenName\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"ganesh\"",
+                  "offset": 51
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 70874100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The \"age\" varify NEW_DummyuserUser responce 23",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"age\"",
+                  "offset": 4
+                },
+                {
+                  "val": "23",
+                  "offset": 44
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responce(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 139142100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The \"gender\" varify NEW_DummyuserUser responce \"male\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"gender\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"male\"",
+                  "offset": 47
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54869700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The \"email\" varify NEW_DummyuserUser responce \"nikhil2020@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"email\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"nikhil2020@gmail.com\"",
+                  "offset": 46
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 59411300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The \"phone\" varify NEW_DummyuserUser responce \"7798260576\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"phone\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"7798260576\"",
+                  "offset": 46
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35975900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The \"username\" varify NEW_DummyuserUser responce \"devloper_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"devloper_user\"",
+                  "offset": 49
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 68062400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The \"password\" varify NEW_DummyuserUser responce \"Welcomew\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"Welcomew\"",
+                  "offset": 49
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51617600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The \"bloodGroup\" varify NEW_DummyuserUser responce \"A+\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bloodGroup\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"A+\"",
+                  "offset": 51
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 83184300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The \"eyeColor\" varify NEW_DummyuserUser responce \"black\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"eyeColor\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"black\"",
+                  "offset": 49
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30489500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The \"haircolor\" varify NEW_DummyuserUser responce \"black\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"haircolor\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"black\"",
+                  "offset": 50
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The \"hairtype\" varify NEW_DummyuserUser responce \"roundshap\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hairtype\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"roundshap\"",
+                  "offset": 49
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 85506200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The \"address\" varify NEW_DummyuserUser responce \"pune wastan highway\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"address\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"pune wastan highway\"",
+                  "offset": 48
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36568500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "The \"city\" varify NEW_DummyuserUser responce \"mumbai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"city\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"mumbai\"",
+                  "offset": 45
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29900900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The \"lat\" varify NEW_DummyuserUser responcee 1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lat\"",
+                  "offset": 4
+                },
+                {
+                  "val": "1234",
+                  "offset": 45
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responcee(java.lang.String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24434200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The \"lng\" varify NEW_DummyuserUser responcee 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lng\"",
+                  "offset": 4
+                },
+                {
+                  "val": "12345",
+                  "offset": 45
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responcee(java.lang.String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24691400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "The \"macAddress\" varify NEW_DummyuserUser responceee 888",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"macAddress\"",
+                  "offset": 4
+                },
+                {
+                  "val": "888",
+                  "offset": 53
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responceee(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 64412600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "The \"university\" varify NEW_DummyuserUser responce \"pune\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"university\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"pune\"",
+                  "offset": 51
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20513700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "The \"cardExpire\" varify NEW_DummyuserUser responce \"12/2/2024\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cardExpire\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"12/2/2024\"",
+                  "offset": 51
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 94549300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "The \"cardNumber\" varify NEW_DummyuserUser responce \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cardNumber\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 51
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27979100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "The \"cardType\" varify NEW_DummyuserUser responce \"debitcard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cardType\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"debitcard\"",
+                  "offset": 49
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 49531500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "The \"currency\" varify NEW_DummyuserUser responce \"INR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"currency\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"INR\"",
+                  "offset": 49
+                }
+              ],
+              "location": "Go_RestApi_stepDefination.dummyADD_NEWUserApi_stepdefinationPost.the_varify_new_dummyuser_user_responce(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@post"
+          }
+        ]
+      }
+    ],
+    "name": "ADD NEW_DummyuserUser API test scenarios",
+    "description": "",
+    "id": "add-new-dummyuseruser-api-test-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/ADummyADD_NEWUserPost2.feature",
+    "tags": []
+  }
+]]
